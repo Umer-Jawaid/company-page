@@ -1,0 +1,37 @@
+body {
+    background: url(img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+:root {
+    --beige: #f5f5dc;
+}
+
+heder,
+footer {
+    background-color: var(--orange);
+}
+
+.headline-news .imagethumb {
+    overflow: hidden;
+    max-height: 200px;
+}
+
+.headline-news h4 {
+    max-height: 30px;
+    overflow: hidden;
+}
+
+a {
+    color: white;
+}
+
+.headline-news .preamble {
+    max-height: 45px;
+    overflow: hidden;
+}
+.btn-success {
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0.699);
+    border-color: rgba(255, 0, 0, 0.699);

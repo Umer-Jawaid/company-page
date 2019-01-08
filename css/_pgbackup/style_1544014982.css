@@ -1,0 +1,23 @@
+:root {
+    --beige: #f5f5dc;
+}
+
+header,
+footer {
+    background-color: var(--orange);
+}
+
+.headline-news .imagethumb {
+    max-height: 208px;
+    overflow: hidden;
+}
+
+.headline-news h4 {
+    max-height: 30px;
+    overflow: hidden;
+}
+
+.headline-news .preamble {
+    max-height: 45px;
+    overflow: hidden;
+}
